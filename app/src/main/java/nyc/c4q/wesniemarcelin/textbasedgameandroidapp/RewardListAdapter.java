@@ -14,15 +14,15 @@ import java.util.List;
 
 public class RewardListAdapter extends RecyclerView.Adapter {
     private List<RewardDescription> mData = Arrays.asList(
-            new RewardDescription("Trophy", R.drawable.trophy_reward),
+            new RewardDescription("Trophy", R.drawable.trophy),
             new RewardDescription("Grenade", R.drawable.grenade),
             new RewardDescription("Star", R.drawable.star),
             new RewardDescription("Medal", R.drawable.trophy),
-            new RewardDescription("Gun",R.drawable.weapon4),
-            new RewardDescription("Spear", R.drawable.weapon6),
-            new RewardDescription("Iron Bar", R.drawable.weapon7),
-            new RewardDescription("Bat", R.drawable.weapon8),
-            new RewardDescription("Knife", R.drawable.weaponnn)
+            new RewardDescription("Gun",R.drawable.gun),
+            new RewardDescription("Spear", R.drawable.spear),
+            new RewardDescription("Iron Bar", R.drawable.iron_bar),
+            new RewardDescription("Bat", R.drawable.bat),
+            new RewardDescription("Knife", R.drawable.knife)
     );
 
     @Override
