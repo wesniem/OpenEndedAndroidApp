@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TextBasedGameAndroidApp</string>
+    <string name="enter_game">ENTER</string>
+    <string name="rules">RULES</string>
+    <string name="enter_game_land">ENTER IF YOU DARE!!</string>
+    <string name="rules_land">RULES</string>
+    <string name="begin_story">It is night time and you have awoken in an unfamiliar location
+                                with no cell phone .  You look around and see no one
+                in sight. In front of you lies a red button. What should you do next ?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/begin_story_text"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are definitely a warrior because you have managed to fight off the zombies with your courage and strength. Great Job, click below to select your trophy"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_below="@id/begin_story_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Next"
+        android:onClick="trophySelection"/>
+
+</LinearLayout>

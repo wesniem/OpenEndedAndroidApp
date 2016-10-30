@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/question1_frag"
+    >
+
+
+    <TextView
+        android:id="@+id/begin_story_text"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/begin_story"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/a"
+        android:layout_below="@id/begin_story_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="A) Get up and begin running"
+        android:onClick="aClicked1"/>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/a"
+        android:text="B) Get up and start yelling"
+        android:onClick="bClicked1"/>
+
+    <Button
+        android:id="@+id/c"
+        android:layout_below="@id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="C) Push that red button"
+        android:onClick="cClicked"/>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cclicked_for_first_round"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nyc.c4q.wesniemarcelin.textbasedgameandroidapp.C1Clicked">
+
+    <TextView
+        android:id="@+id/begin_story_text"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="So you push the red button, and next thing you know, the ground beneath lets
+        out and you're falling into a deep dark pit.  You start screaming and reaching out to try to
+        grip onto anything you can find to stop your fall but no luck.  You then end up reaching the end of the hole and it's complete darkness!
+        Your next move is to:"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/a"
+        android:layout_below="@id/begin_story_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="A) Panic!"
+        android:onClick="a2Clicked"/>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/a"
+        android:text="B) Get up and run!"
+        android:onClick="b2Clicked"/>
+</RelativeLayout>

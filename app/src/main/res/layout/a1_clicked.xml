@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_a_clicked"
+    >
+
+    <TextView
+        android:id="@+id/begin_story_text"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okay, so you've begun running.  After a while you begin to slow down because it looks as though you saw something or someone run past in the distance. Your next move is: "
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/a"
+        android:layout_below="@id/begin_story_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="A) Run towards the direction of what you saw"
+        android:onClick="a2Clicked"/>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/a"
+        android:text="B) Run in the opposite direction of what you saw"
+        android:onClick="b2Clicked"/>
+
+    <Button
+        android:id="@+id/c"
+        android:layout_below="@id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="C)Go back to your starting point"
+        android:onClick="c2Clicked"/>
+
+
+</RelativeLayout>

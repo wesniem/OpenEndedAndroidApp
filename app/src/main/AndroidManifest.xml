@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nyc.c4q.wesniemarcelin.textbasedgameandroidapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".BeginGame"/>
+        <activity android:name=".LoseGame"/>
+        <activity android:name=".DisplayRewardActivity"/>
+        <activity android:name=".RewardView"/>
+        <activity android:name=".DisplayRules"/>
+        <activity android:name=".BeginGame" />
+        <activity android:name=".A1Clicked" />
+        <activity android:name=".Question1Fragment" />
+        <activity android:name=".B1Clicked" />
+        <activity android:name=".C1Clicked" />
+        <activity android:name=".A2Clicked" />
+        <activity android:name=".B2Clicked" />
+        <activity android:name=".C2Clicked" />
+        <activity android:name=".A3Clicked" />
+        <activity android:name=".C3Clicked" />
+        <activity android:name=".A4Clicked" />
+        <activity android:name=".B4Clicked" />
+        <activity android:name=".AnotherRound" />
+        <activity android:name=".TrophySelection" />
+        <activity android:name=".LoseGame" />
+        <activity android:name=".Rewards.Trophy1" />
+        <activity android:name=".Rewards.Reward3" />
+        <activity android:name=".Rewards.Reward2" />
+        <activity android:name=".Rewards.Reward1" />
+        <activity android:name=".Rewards.Reward4" />
+        <activity android:name=".DisplayRewardActivity"></activity>
+    </application>
+
+</manifest>
